@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Chat.css */
+
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .response-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .query_box {
+    margin-top: 20px;
+  }
+  
+  .web_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .prompt_inner {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .response {
+    margin-top: 20px;
+  }
+  
+  .response p {
+    margin: 0;
+  }
+  
+  .response b {
+    font-weight: bold;
+  }
+  
+  /* Additional styles from Flask template can be added here */
+  
